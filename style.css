@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+
+.fa-facebook{
+    font-size: 35px;
+    color: blue;
+    top: 50px;
+    right: 20px;
+    position:fixed;
+}
+.fa-whatsapp{
+    font-size: 35px;
+    color: green;
+    top: 100px;
+    right: 20px;
+    position:fixed;
+}
+
+.fa-solid{
+    font-size: 50px;
+    color: blueviolet;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    bottom: 40px;
+    right: 15px;
+}
+
+
+/* div{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    margin-bottom: 20px;
+} */
+
+/* .main{
+    position:relative;
+    top: 50px;
+    left: 20px;
+} */
+
+/* .sec{
+    background: blueviolet;
+} */
+
+/* .child{
+    background-color: plum;
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+} */
+
+nav{
+    background-color: dimgrey;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+iframe{
+    display: block;
+    margin-top: 20px;
+    margin-left: 220px;
+}
